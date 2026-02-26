@@ -3,11 +3,11 @@ Unary-pairwise transformer for human-object interaction detection
 
 Fred Zhang <frederic.zhang@anu.edu.au>
 
-The Australian National University
+The Australian National University 
 Australian Centre for Robotic Vision
 """
 import os
-import sys
+import sys 
 import math
 from typing import Optional, List, Dict, Tuple
 
@@ -842,5 +842,6 @@ def build_detector(args,
                     object_class_to_target_class=class_corr,
                     object_n_verb_to_interaction=object_n_verb_to_interaction,
                     )
+
 
     return detector
